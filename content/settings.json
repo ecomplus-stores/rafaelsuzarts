@@ -1,24 +1,24 @@
 {
-  "store_id": 1512,
-  "name": "rafaelsuzarts",
   "domain": "rafaelsuzarts.netlify.app",
-  "short_name": "rafaelsuzarts",
-  "description": "rafaelsuzarts",
-  "primary_color": "#222831",
-  "secondary_color": "#393e46",
-  "bg_color": "#ffffff",
+  "currency_symbol": "R$",
+  "primary_color": "#000000",
   "theme": {
-    "bootswatch": "_",
-    "custom": "_"
+    "bootswatch": "cerulean",
+    "custom": "clean-dark"
   },
-  "logo": "/img/uploads/logo.png",
-  "mini_logo": "",
-  "icon": "/img/icon.png",
-  "large_icon": "/img/large-icon.png",
-  "favicon": "/img/uploads/favicon.png",
+  "bg_color": "#ffffff",
+  "repository": "ecomplus-stores/rafaelsuzarts",
+  "logo": "/img/uploads/logo-ormizi.png",
+  "name": "Ormizi",
+  "short_name": "Ormizi",
   "lang": "pt_br",
   "currency": "BRL",
-  "currency_symbol": "R$",
+  "mini_logo": "",
+  "favicon": "/img/uploads/ormizi2-1.png",
   "country_code": "BR",
-  "repository": "ecomplus-stores/rafaelsuzarts"
+  "secondary_color": "#dc3c5c",
+  "icon": "/img/uploads/ormizi2-1.png",
+  "store_id": 1512,
+  "description": "Somos um grupo online global e multi-canal liderado por jovens profissionais. Somos movidos pelo serviço e detalhes, e apaixonados por o que fazemos.\n\nAcreditamos que as pessoas devem expressar suas individualidades experimentando com seus looks. Desse modo, nosso objetico tem sido entregar isso através de uma escolha ilimitada de marcas de designers.",
+  "large_icon": "/img/uploads/ormizi2-1.png"
 }
