@@ -1,7 +1,7 @@
 {
   "domain": "rafaelsuzarts.netlify.app",
   "currency_symbol": "R$",
-  "primary_color": "#000000",
+  "primary_color": "#ffffff",
   "theme": {
     "bootswatch": "cerulean",
     "custom": "clean-dark"
