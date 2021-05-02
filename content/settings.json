@@ -1,10 +1,10 @@
 {
   "domain": "rafaelsuzarts.netlify.app",
   "currency_symbol": "R$",
-  "primary_color": "#ffffff",
+  "primary_color": "#000000",
   "theme": {
-    "bootswatch": "cerulean",
-    "custom": "clean-dark"
+    "bootswatch": "journal",
+    "custom": "clean-white"
   },
   "bg_color": "#ffffff",
   "repository": "ecomplus-stores/rafaelsuzarts",
