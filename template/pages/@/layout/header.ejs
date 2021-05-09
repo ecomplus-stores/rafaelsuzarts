@@ -22,9 +22,8 @@ let marketingStripeStyle = ''
 })
 
 // store logo object
-const logo = _.settings.logo
-  ? { url: _.settings.logo, alt: _.settings.name }
-  : _.store.logo
+const logo =  { url: _.settings.logo, alt: _.settings.name }
+  
 
 // list featured categories
 let categories = []
@@ -52,6 +51,7 @@ if (header.categories_list) {
 
 <div id="overlay" class="fade"></div>
 
+<% if (header.contacts_stripe.pages.length > 0) { %>
 <div class="top-bar">
   <% if (header.marketing_stripe) { %>
     <% if (header.marketing_stripe.text) { %>
@@ -70,7 +70,8 @@ if (header.categories_list) {
       <% } %>
     <% } %>
   <% } %>
-
+  
+  
   <div class="top-bar__nav d-none d-md-block">
     <div class="container-fluid">
       <div class="row">
@@ -122,7 +123,7 @@ if (header.categories_list) {
     </div>
   </div>
 </div>
-
+<% } %>
 <header class="header" id="header">
   <div class="header__container container-fluid">
     <div class="header__row row">
@@ -174,7 +175,7 @@ if (header.categories_list) {
             aria-controls="search-bar"
             title="<%= _.dictionary('searchProducts') %>"
           >
-            <i class="fas fa-search"></i>
+            <b style="font-weight:normal;" class="ri-search-line"></b>
           </button>
 
           <a
@@ -184,7 +185,7 @@ if (header.categories_list) {
             href="/app/#/account/"
             title="<%= _.dictionary('myAccount') %>"
           >
-            <i class="fas fa-user"></i>
+            <b style="font-weight:normal;" class="ri-user-3-line"></b>
           </a>
           <a
             id="cart-button"
@@ -193,7 +194,7 @@ if (header.categories_list) {
             href="/app/#/cart"
             title="<%= _.dictionary('openCart') %>"
           >
-            <i class="fas fa-shopping-bag"></i>
+            <b style="font-weight:normal;" class="ri-shopping-cart-line"></b>
             <span id="cart-count" class="badge badge-primary"></span>
           </a>
         </div>
@@ -228,7 +229,7 @@ if (header.categories_list) {
             <input
               type="search"
               name="term"
-              placeholder="<%= _.dictionary('searchProducts') %>"
+              placeholder="O que você procura?"
               aria-label="<%= _.dictionary('searchProducts') %>"
               class="header__search-input form-control"
               id="search-input"
@@ -238,7 +239,7 @@ if (header.categories_list) {
               class="header__search-btn"
               aria-label="<%= _.dictionary('searchProducts') %>"
             >
-              <i class="fas fa-search"></i>
+              <b style="font-weight:normal;" class="ri-search-line"></b>
             </button>
             <div id="instant-search">
               <!--

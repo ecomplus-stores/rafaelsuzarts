@@ -1,5 +1,5 @@
 {
   "css": "",
-  "html_head": "<script id=\"mcjs\">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,\"script\",\"https://chimpstatic.com/mcjs-connected/js/users/aec731ef0f6baab3245c283de/3cb4b0bc567339a392bd667fd.js\");</script>",
+  "html_head": "",
   "html_body": ""
 }

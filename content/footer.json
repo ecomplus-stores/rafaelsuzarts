@@ -21,10 +21,7 @@
     "address": true
   },
   "stamps": [
-    {
-      "src": "/img/uploads/ssl-safe.png",
-      "alt": "Secure connection"
-    }
+    
   ],
   "payment_methods": {
     "bb": true,

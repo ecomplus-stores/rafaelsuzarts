@@ -5,22 +5,29 @@
   },
   "contacts_stripe": {
     "pages": [
-      {
-        "title": "Sobre nós",
-        "link": "/pages/sobre-nos"
-      },
-      {
-        "title": "Esta loja é um PWA",
-        "link": "/posts/esta-loja-e-um-pwa"
-      }
+     
     ],
     "phone_wpp": true,
     "socials": true
   },
   "categories_list": {
-    "featured": [],
-    "random": 6,
-    "full_width": false
+    "featured": [
+      "/?Ray-Ban",
+      "/?Aviador",
+      "/?Caçador",
+      "/?Clubmaster",
+      "/?Erika",
+      "/?Hexagonal",
+      "/?Justin",
+      "/?Marshal",
+      "/?Octagonal",
+      "/?Round",
+      "/?Square",
+      "/?Wayfarer"
+      
+    ],
+    "random": 0,
+    "full_width": true
   },
   "search_input": true
 }
