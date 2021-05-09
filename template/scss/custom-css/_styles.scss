@@ -400,6 +400,39 @@ body > iframe{display:none;}
     width: 60px;
     font-size: 36px;
     padding: 0;
-    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 #whatsapp-button i{color:#fff}
+body,
+html{overflow-x:hidden;}
+@media(max-width:990px){
+    .header__toggler i{color:#000}
+    .header__toggler{
+        margin: 3px 0 0 5px;
+    }
+    .products-carousel__title a, .products-carousel__title span{font-size:1.5rem;}
+    .products-carousel{max-width:80%;}
+    .products-carousel .glide__arrows--outer .glide__arrow--left{left:-40px;}
+    .products-carousel .glide__arrows--outer .glide__arrow--right{right:-40px;}
+    .footer__title[aria-expanded]{border:0}
+    .collapse:not(.show){display:block;}
+    .footer__title[aria-expanded=false]:after{display:none;}
+    main .footer{padding:2rem 1.5rem;}
+
+    .mc-field-group{display:block;text-align:center;}
+    .mc-field-group > *{margin:.5rem 0;;max-width:100%;min-width:unset!important;width:100%;}
+    #mc_embed_signup form{padding:1rem 2rem 1.5rem 2rem;}
+
+    .credits{text-align:center;padding-top:1rem;display:block;}
+    main #search-input{border:0;background:transparent;font-size: 12px;}
+    .header__search{
+        background: #f8f8f8;
+    margin: 0 -10px 5px -10px;
+    padding: 0 10px;
+    border-radius: 3px;
+    
+    }
+    .header__search-btn{
+        padding: 0 4px 5px 0;
+    }
+}
