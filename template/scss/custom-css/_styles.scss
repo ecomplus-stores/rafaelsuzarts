@@ -88,7 +88,7 @@ main #search-input{
     font-weight: bold;
     letter-spacing: 2px;
 }
-.product__buy button{padding-left:3rem;padding-right:3rem;}
+.product__buy button{padding-left:3rem;padding-right:3rem;width:270px;}
 .product-card__buy button i,
 .product__buy span i{display:none}
 .product__discount{
@@ -481,4 +481,24 @@ html{overflow-x:hidden;}
     padding-left: 15px;
     padding-right: 15px;
     
+}
+
+.product__discount_counter{
+    background: #dd3c5d;
+    display: block;
+    width: fit-content;
+    padding: .6rem 1rem;
+    color: #fff;
+    flex-wrap: nowrap;
+    font-size: 14px;
+}
+.product__discount_counter strong{
+    display: flex;
+    align-items: center;
+}
+.product__discount_counter strong div{font-size:2rem;margin-left:1rem;margin-top: -7px;}
+.product__discount_counter strong div > span{
+    margin: 0 5px;
+    width: 36px;
+    display: inline-block;
 }

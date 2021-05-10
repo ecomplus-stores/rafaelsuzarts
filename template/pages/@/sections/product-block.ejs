@@ -53,7 +53,6 @@
           <p class="product__sku">
             COD: <%= _.state.sku %>
           </p>
-
           <div id="product-actions">
             <div id="product-loading">
               <% if (_.state.available && _.state.visible && _.ecomUtils.inStock(_.state)) { %>
@@ -93,9 +92,10 @@
                   </div>
                 </button>
               </div>
+              
             </div>
           </div>
-
+          
           <% if (_.state.short_description) { %>
             <p class="product__info lead">
               <%= _.state.short_description %>
