@@ -33,8 +33,12 @@ function setTimer(){
             //document.getElementById("demo").innerHTML = days + "d " + hours + "h "
             //+ minutes + "m " + seconds + "s ";
             
-            if (distance < 0) {
+            if (distance < 1) {
                 clearInterval(x);
+                countDownDate = new Date();
+                countDownDate.setDate(countDownDate.getDate() + 1);
+                sessionStorage.setItem('ormizi_counter', countDownDate);
+                setTimer();
                 //document.getElementById("demo").innerHTML = "EXPIRED";
             }
         }, 1000);
