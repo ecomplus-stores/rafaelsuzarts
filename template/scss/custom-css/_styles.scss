@@ -82,13 +82,25 @@ main #search-input{
 .glide__arrows--outer .glide__arrow--right{font-size:1.5rem;    color: #dd3c5d;opacity:1}
 .products-carousel{padding:0}
 
-.product-card__buy button{
+.product-card__buy button,
+.product__buy button span{
     text-transform: lowercase;
     font-weight: bold;
     letter-spacing: 2px;
 }
-.product-card__buy button i{display:none}
-
+.product__buy button{padding-left:3rem;padding-right:3rem;}
+.product-card__buy button i,
+.product__buy span i{display:none}
+.product__discount{
+    background: var(--success);
+    color: #fff;
+    display: block;
+    width: fit-content;
+    margin: 1rem 0;
+    padding: 5px 15px;
+    border-radius: 3px;
+    font-size: 15px;
+}
 #mc_embed_signup{background:#000;}
 #mc_embed_signup form{max-width:80rem;margin:0rem auto;display:block;padding:2rem 0;display:block;}
 #mc_embed_signup label{
@@ -405,6 +417,8 @@ body > iframe{display:none;}
 #whatsapp-button i{color:#fff}
 body,
 html{overflow-x:hidden;}
+
+.h1, h1{font-size:1.8rem}
 @media(max-width:990px){
     .header__toggler i{color:#000}
     .header__toggler{
@@ -435,4 +449,36 @@ html{overflow-x:hidden;}
     .header__search-btn{
         padding: 0 4px 5px 0;
     }
+}
+.mb-3 .share,
+.login__oauth,
+.product__payment.card,
+.prices__compare small,
+.app__contact{display:none;}
+
+.prices--big .prices__value{
+    color: #dd3c5d;
+    margin: .5rem 0;
+}
+
+#product-description .html-clearfix table td,
+.specification__row{padding:10px 15px!important;background-color:#f8f8f8!important;}
+#product-description .container {
+    border: 1px solid #ccc;
+    padding-right: 0;
+    padding-left: 0;
+}
+#product-description .container .lead {
+    background-color: #f8f8f8;
+    border-color: #ccc;
+    padding: 10px 15px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 15px!important;
+}
+#product-description .container .html-clearfix {
+    padding-left: 15px;
+    padding-right: 15px;
+    
 }
