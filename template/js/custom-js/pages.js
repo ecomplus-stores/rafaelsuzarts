@@ -3,14 +3,21 @@ new Vue({
     mounted: setTimeout(function(){ setTimer()}, 1000)
 })
 
+var countDownDate = localStorage.getItem('ormizi_counter');
+if (!countDownDate){
+    countDownDate = new Date();
+    countDownDate.setDate(countDownDate.getDate() + 1);
+    localStorage.setItem('ormizi_counter', countDownDate);
+}else{
+    countDownDate = new Date(countDownDate)
+}
 function setTimer(){
     if($('.product__discount_counter').length > 0){        
-        var countDownDate = sessionStorage.getItem('ormizi_counter');
-        console.log(countDownDate)
+        var countDownDate = localStorage.getItem('ormizi_counter');
         if (!countDownDate){
             countDownDate = new Date();
             countDownDate.setDate(countDownDate.getDate() + 1);
-            sessionStorage.setItem('ormizi_counter', countDownDate);
+            localStorage.setItem('ormizi_counter', countDownDate);
         }else{
             countDownDate = new Date(countDownDate)
         }
@@ -37,7 +44,7 @@ function setTimer(){
                 clearInterval(x);
                 countDownDate = new Date();
                 countDownDate.setDate(countDownDate.getDate() + 1);
-                sessionStorage.setItem('ormizi_counter', countDownDate);
+                localStorage.setItem('ormizi_counter', countDownDate);
                 setTimer();
                 //document.getElementById("demo").innerHTML = "EXPIRED";
             }
