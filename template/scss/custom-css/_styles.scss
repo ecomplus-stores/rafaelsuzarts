@@ -516,3 +516,10 @@ html{overflow-x:hidden;}
     font-weight: bold;
     border-radius: 5px;
 }
+// off e fundo tag offer
+.product-card__offer-stamp {
+  background: #00A82D;
+    &:after {
+        content: "OFF"
+    }
+}
