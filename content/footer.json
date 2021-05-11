@@ -22,14 +22,15 @@
   },
   "stamps": [
     {
-      "src": "https://transparencyreport.google.com/safe-browsing/search?url=ormizi.com"
+      "src": "/img/uploads/google.png",
+      "link": "https://transparencyreport.google.com/safe-browsing/search?url=ormizi.com"
     },
     {
       "src": "/img/uploads/ssl-safe.png"
     }
   ],
   "payment_methods": {
-    "bb": true,
+    "bb": false,
     "visa": true,
     "boleto": true,
     "aura": true,
@@ -37,7 +38,7 @@
     "elo": true,
     "hipercard": true,
     "hsbc": false,
-    "bradesco": true,
+    "bradesco": false,
     "santander": false,
     "mastercard": true,
     "paypal": true,
@@ -46,7 +47,7 @@
     "diners": true,
     "mais": false,
     "amex": true,
-    "itau": true
+    "itau": false
   },
   "credits": ""
 }
