@@ -521,7 +521,8 @@ html{overflow-x:hidden;}
 .product-card__offer-stamp {
   background: #00A82D;
     &:after {
-        content: "OFF"
+        content: "OFF";
+        font-weight: bold
     }
 }
 
