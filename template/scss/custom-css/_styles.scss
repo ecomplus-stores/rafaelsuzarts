@@ -502,3 +502,17 @@ html{overflow-x:hidden;}
     width: 36px;
     display: inline-block;
 }
+//tag frete grátis
+.product-card:after {
+    content: "FRETE GRÁTIS";
+    display: block;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    padding: .25rem .5rem;
+    background: #DD3C5D;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
