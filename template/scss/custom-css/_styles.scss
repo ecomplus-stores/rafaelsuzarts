@@ -526,3 +526,6 @@ html{overflow-x:hidden;}
 }
 
 .footer__social a{font-size:1.5rem;}
+
+.product-card .prices__installments:after{content:"sem juros";}
+.prices__value{margin:5px 0;}
