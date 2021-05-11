@@ -10,18 +10,18 @@
   },
   "categories_list": {
     "featured": [
-      "/?Ray-Ban",
-      "/?Aviador",
-      "/?Caçador",
-      "/?Clubmaster",
-      "/?Erika",
-      "/?Hexagonal",
-      "/?Justin",
-      "/?Marshal",
-      "/?Octagonal",
-      "/?Round",
-      "/?Square",
-      "/?Wayfarer"
+      "/ray-ban?RAY-BAN",
+      "/aviador?AVIADOR",
+      "/cacador?CAÇADOR",
+      "/clubmaster?CLUBMASTER",
+      "/erika?ERIKA",
+      "/hexagonal?HEXAGONAL",
+      "/justin?JUSTIN",
+      "/marshal?MARSHAL",
+      "/octagonal?OCTAGONAL",
+      "/round?ROUND",
+      "/square?SQUARE",
+      "/wayfarer?WAYFARER"
     ],
     "random": 0,
     "full_width": true
