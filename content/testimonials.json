@@ -1,27 +1,37 @@
 {
-  "title": "Nossos Clientes",
   "list": [
     {
-      "title": "Eduardo Vieira",
-      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.",
-      "icon": "/img/uploads/person_holder.png"
+      "title": "Marcela Linhares",
+      "text": "Achei esse site pesquisando por preços bons de óculos, fiquei meio desconfiada por não achar muita coisa do site na internet, mas me atenderam super bem e meu produto chegou super rápido e trata-se de um produto original. Adorei e recomendo o site.",
+      "icon": "/img/uploads/136342296_447113212986981_3705606744475999094_n.jpg"
     },
     {
-      "title": "Carol Oliveiros",
-      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.",
-      "icon": "/img/uploads/person_holder.png"
+      "title": "Ramon Soares",
+      "text": "Site seguro, entrega rápida e produto de qualidade. Eu vou indicar pra amigos. ",
+      "icon": "/img/uploads/169258695_10219427185177974_8368376332231490465_n.jpg"
     },
     {
-      "title": "Eduardo Vieira",
-      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.",
-      "icon": "/img/uploads/person_holder.png"
+      "title": "Vanessa Amaral",
+      "text": "Fiz duas compras e todas duas foram entregues, gostei bastante do atendimento do pessoal do site.",
+      "icon": "/img/uploads/152820255_279219146971148_2475208159673921961_n.jpg"
     },
     {
-      "title": "Carol Oliveiros",
-      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.",
-      "icon": "/img/uploads/person_holder.png"
+      "title": "Gustavo Domingues",
+      "text": "Não ia comprar não, fiquei desconfiado, mas arrisquei e recebi o produto certinho. Vou comprar um novo assim que terminar de pagar esse. Recomendo o site.",
+      "icon": "/img/uploads/67567196_108363553827734_633265577443459072_n.jpg"
+    },
+    {
+      "icon": "/img/uploads/162398720_102280945292923_7187652292824487312_n.jpg",
+      "title": "Andreia Macedo",
+      "text": "RECOMENDO SIM, FORAM SUPER ATENCIOSOS COMIGO."
+    },
+    {
+      "icon": "/img/uploads/183978790_156490199742192_5072599838263407641_n.jpg",
+      "text": "óculos lindo, entregaram bem antes do prazo. super recomendo.",
+      "title": "Alice Miranda"
     }
   ],
+  "container": "Caixa",
   "quantity": "3",
-  "container": "Caixa"
+  "title": "Nossos Clientes"
 }
