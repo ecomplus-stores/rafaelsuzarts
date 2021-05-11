@@ -92,32 +92,6 @@
               "options": ["Esquerda","Direita"]
             }
           ]
-        },
-        {
-          "name": "newsletter",
-          "label": "Newsletter",
-          "file": "content/apx_newsletter.json",
-          "editor": {
-            "preview": false
-          },
-          "fields": [
-            {
-              "label": "Ícone",
-              "name": "image",
-              "widget": "image",
-              "required":false
-            },
-            {
-              "label": "Texto",
-              "name": "text",
-              "widget": "string"
-            },
-            {
-              "label": "Botão",
-              "name": "button",
-              "widget": "string"
-            }            
-          ]
         }
       ]
     }
