@@ -8,8 +8,17 @@ if (!countDownDate){
     countDownDate = new Date();
     countDownDate.setDate(countDownDate.getDate() + 1);
     localStorage.setItem('ormizi_counter', countDownDate);
+    
+    
 }else{
-    countDownDate = new Date(countDownDate)
+    countDownDate = new Date(countDownDate)  
+    let now = new Date().getTime();
+    let distance = countDownDate - now;
+    if (distance < 1) {
+        countDownDate = new Date();
+        countDownDate.setDate(countDownDate.getDate() + 1);
+        localStorage.setItem('ormizi_counter', countDownDate);        
+    }  
 }
 function setTimer(){
     if($('.product__discount_counter').length > 0){        
@@ -33,8 +42,8 @@ function setTimer(){
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
             
-            $('.product__discount_counter .h').text(hours);
-            $('.product__discount_counter .m').text(minutes);
+            $('.product__discount_counter .h').text(hours.toString().length == 1 ? "0" + hours.toString() : hours);
+            $('.product__discount_counter .m').text(minutes.toString().length == 1 ? "0" + minutes.toString() : minutes);
             $('.product__discount_counter .s').text(seconds.toString().length == 1 ? "0" + seconds.toString() : seconds);
 
             //document.getElementById("demo").innerHTML = days + "d " + hours + "h "
