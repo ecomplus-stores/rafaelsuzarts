@@ -450,6 +450,8 @@ html{overflow-x:hidden;}
     .header__search-btn{
         padding: 0 4px 5px 0;
     }
+
+
 }
 .mb-3 .share,
 .login__oauth,
@@ -530,3 +532,24 @@ html{overflow-x:hidden;}
 
 .product-card .prices__installments:after{content:"sem juros";}
 .prices__value{margin:5px 0;}
+
+@media(max-width:990px){
+    .product-card__offer-stamp{
+        left: 5px;
+        top: 30px;
+        font-size: 10px;
+        line-height: 20px;
+        height: auto;
+    }
+    .product-card:after{
+        right: 5px;
+        text-align: center;
+        font-size: 10px!important;
+        line-height: 21px;
+        height: auto;
+        padding: 0;
+    }
+}
+[data-intermediator="paghiper"] .payment__intermediator{display:none;}
+.checkout .payment .list-group>a[data-intermediator="paghiper"] .payment__head{margin:0;}
+.checkout .payment .list-group>a[data-intermediator="paghiper"]{padding:0}
