@@ -9,8 +9,9 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-1.jpg",
-          "mobile_img": "/img/uploads/banner-site-1.jpg"
+          "img": "https://ibb.co/hX18Zb1",
+          "mobile_img": "https://ibb.co/hX18Zb1",
+          "link": "https://www.ormizi.com/nina"
         },
         {
           "start": "",
@@ -24,7 +25,6 @@
           "img": "/img/uploads/banner-site-3.jpg",
           "mobile_img": "/img/uploads/banner-site-3.jpg"
         }
-        
       ]
     },
     {
