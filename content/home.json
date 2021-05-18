@@ -32,11 +32,12 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/banner-site-2.jpg"
+          "img": "/img/uploads/01.png",
+          "link": "https://www.ormizi.com/holbrook"
         },
         {
-          "img": "/img/uploads/banner-site-2.jpg"
-        }
+          "img": "/img/uploads/02.png",
+          "link": "https://www.ormizi.com/aviador"
       ]
     },
     {
