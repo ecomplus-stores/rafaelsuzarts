@@ -17,14 +17,15 @@
           "start": "",
           "end": "",
           "img": "/img/uploads/banner-site-02.png",
-          "mobile_img": "/img/uploads/banner-site-02.png",
+          "mobile_img": "/img/banner-site-02.png",
           "link": "https://www.ormizi.com/marshal"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-3.jpg",
-          "mobile_img": "/img/uploads/banner-site-3.jpg"
+          "img": "/img/uploads/banner-site-03.png",
+          "mobile_img": "/img/uploads/banner-site-03.png",
+          "link": "https://www.ormizi.com/gucci"
         }
       ]
     },
@@ -38,6 +39,7 @@
         {
           "img": "/img/uploads/02.png",
           "link": "https://www.ormizi.com/aviador"
+        }
       ]
     },
     {
