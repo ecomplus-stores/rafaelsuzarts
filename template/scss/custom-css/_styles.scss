@@ -533,21 +533,26 @@ html{overflow-x:hidden;}
 .product-card .prices__installments:after{content:"sem juros";}
 .prices__value{margin:5px 0;}
 
-@media(max-width:990px){
+@media(max-width:767px){
     .product-card__offer-stamp{
-        left: 5px;
-        top: 30px;
+        text-align: center;
+        top: 0px;
+        right: 0px;
+        float: right;
+        width: 40%;
         font-size: 10px;
         line-height: 20px;
         height: auto;
+        padding-right: .1rem;;
+        padding-left: .1rem;
     }
     .product-card:after{
-        right: 5px;
+        width: 50%;
+        top: 0px;
         text-align: center;
         font-size: 10px!important;
         line-height: 21px;
         height: auto;
-        padding: 0;
     }
 }
 [data-intermediator="paghiper"] .payment__intermediator{display:none;}
