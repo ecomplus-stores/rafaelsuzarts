@@ -559,3 +559,7 @@ html{overflow-x:hidden;}
 [data-intermediator="paghiper"] .payment__intermediator{display:none;}
 .checkout .payment .list-group>a[data-intermediator="paghiper"] .payment__head{margin:0;}
 .checkout .payment .list-group>a[data-intermediator="paghiper"]{padding:0}
+
+body {
+    overflow: hidden
+}
