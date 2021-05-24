@@ -555,6 +555,9 @@ html{overflow-x:hidden;}
         height: auto;
         padding: 0.01rem;
     }
+    #whatsapp-button {
+        bottom: 100px !important;
+    }
 }
 [data-intermediator="paghiper"] .payment__intermediator{display:none;}
 .checkout .payment .list-group>a[data-intermediator="paghiper"] .payment__head{margin:0;}
