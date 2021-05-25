@@ -1,5 +1,5 @@
 {
-  "css": "",
+  "css": ".ecom-credits {\n  display:none;\n}",
   "html_head": "",
   "html_body": "<script src=\"//code.jivosite.com/widget/nXoB2yT81m\" async></script>"
 }
