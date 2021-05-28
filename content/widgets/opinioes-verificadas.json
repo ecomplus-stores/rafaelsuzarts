@@ -1,12 +1,12 @@
 {
   "pkg": "@ecomplus/widget-opinioes-verificadas",
-  "active": false,
+  "active": true,
   "desktopOnly": false,
   "enableCheckout": false,
   "disablePages": true,
   "options": {
     "stamp": "",
-    "tagJs": ""
+    "tagJs": "<script charset=\"utf-8\" src=\"//cl.avis-verifies.com/pt/cache/5/4/3/54380312-cb1d-4044-693c-f7452d12e759/AWS/PRODUCT_API/tag.min.js\"></script>"
   },
   "headAppend": "src/append/head",
   "bodyAppend": "src/append/body",

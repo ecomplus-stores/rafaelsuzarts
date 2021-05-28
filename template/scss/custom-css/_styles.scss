@@ -573,3 +573,7 @@ html{overflow-x:hidden;}
 body {
     overflow: hidden
 }
+
+label[for="account-form-birth"], #account-form-birth {
+  display: none;
+}
