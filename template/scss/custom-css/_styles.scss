@@ -454,7 +454,11 @@ html{overflow-x:hidden;}
 
 }
 .checkout__step--past, .checkout__step--past:hover{font-weight:600}
-// .mb-3 .share,
+.product__payment.card,
+.prices__compare small,
+.mb-3 .share{
+    display:none;
+}
 // .login__oauth,
 // .product__payment.card,
 // .prices__compare small,
