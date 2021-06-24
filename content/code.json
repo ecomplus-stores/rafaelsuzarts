@@ -1,5 +1,5 @@
 {
   "css": ".ecom-credits {\n  display:none!important;\n}\n.order-info__toggle {\n    display: none !important;\n}",
   "html_head": "",
-  "html_body": ""
+  "html_body": "\n    w[o] = w[o] || function () {\n      (w[o].q = w[o].q || []).push(arguments)\n    };\n    js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];\n    js.id = o;\n    js.src = f;\n    js.async = 1;\n    fjs.parentNode.insertBefore(js, fjs)\n  }(window, document, 'script', 'pcw', 'https://cdn.popconvert.com.br/widget/popconvert.js'))\n</script>\n            "
 }
