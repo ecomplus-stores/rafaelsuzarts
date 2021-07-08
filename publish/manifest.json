@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.b79f96b5788a2d062052d5d3d282a09a.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.c4b5ebedab4fff38d7d8c973235544b0.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.b1dfcbf95dc0b8fb9b252792d1c35d91.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.e82602cd042eb13fb86a1e33a4fd4140.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.2bc1603e640b7c04f382487d34e86ecb.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Ormizi",
+  "short_name": "Ormizi",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Somos um grupo online global e multi-canal liderado por jovens profissionais. Somos movidos pelo serviço e detalhes, e apaixonados por o que fazemos.\n\nAcreditamos que as pessoas devem expressar suas individualidades experimentando com seus looks. Desse modo, nosso objetico tem sido entregar isso através de uma escolha ilimitada de marcas de designers.",
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
+}
